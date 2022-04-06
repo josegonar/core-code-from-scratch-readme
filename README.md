@@ -1,4 +1,4 @@
-## SESSION 01, WEEK 01.
+# SESSION 01, WEEK 01.
   #### **1. Interpreted And Compiled Programming Languages**
   - Complied: 
     This type of program compiles, assembles or puts together the source code into an executable file. This file       can be read by another machine with the same machine code. Observations: Faster, ready to run, source code is private,       takes an extra step (compile), not cross-platform (pc and mac).
@@ -11,4 +11,7 @@
       compiled just-in-time and executed
       interpreted
       directly executed by a supported processor (bytecode is the native instruction set of some CPUs)
-  
+      
+## **Pseudocode currency converter**
+
+USD to BTC
