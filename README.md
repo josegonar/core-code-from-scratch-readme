@@ -16,13 +16,12 @@
 
 <h2>Pseudocode currency converter</h2>
   <ol>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Start Program</li>
+  <li>rate = Get 1USD TO BTC current exchange rate from x website</li>
+  <li>amount = 0</li>
+  <li>amount = ask user for the amount in USD</li>
+  <li>final_ammount =rate * amount</li>
+  <li>print final amount</li>
   </ol>
 
 
