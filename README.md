@@ -8,19 +8,12 @@
       <li>Interpreted</li>
         <p>This tyoe of program makes a copy of the source code (public). Observations: Cross platform, simpler to test, needs an interpreter (slower).</p>
   </ul>
- 
+  <li>Is Java compiled or interpreted, or both?</li>
+  <p> Java is first a compiled into bytecode (by the Java compiler/JRE), bytecode is then interpreted by a Java Virtual Machine (JVM). Modern JVMs use JIT (Just in Time compilation) to compile the bytecode to native machine language.</p>
 </ol>
 
+<h2>Pseudocode currency converter</h2>
+  <ol>
+  </ol>
 
-    
-  #### **2. Is Java compiled or interpreted, or both?**
-  Java is first a compiled into bytecode (by the Java compiler/JRE), bytecode is then interpreted by a Java Virtual            Machine (JVM). Modern JVMs use JIT (Just in Time compilation) to compile the bytecode to native machine language.
-     So, depending on the excecution enviroment, bytecode can be:
-      compiled ahead of time and executed as native code (similar to most C++ compilers)
-      compiled just-in-time and executed
-      interpreted
-      directly executed by a supported processor (bytecode is the native instruction set of some CPUs)
-      
-## **Pseudocode currency converter**
 
-USD to BTC
