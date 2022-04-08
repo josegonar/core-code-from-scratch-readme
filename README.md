@@ -24,3 +24,39 @@
   <li>print final amount</li>
   <li>END</li>
   </ol>
+
+
+<h1>SESSION 03, WEEK 01</h1>
+
+for (let i = 0; i<101; i++) { 
+    if (i % 2 ==0){
+        console.log(i);
+    }
+}
+
+Bad code
+var cond = false;
+
+if ((cond == true)) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+
+
+Bad code 2
+var n = 2000;
+if (n == 100){
+    console.log("This is a special number!");
+}
+if (n<1000){
+    if (n % 10 == 0){
+        if ( n != 100){
+            console.log("this number is almos special");
+        }
+    }
+}
+
+else {
+    console.log("This number just a regular number")
+}
