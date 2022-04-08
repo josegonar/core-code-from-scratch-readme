@@ -45,18 +45,18 @@ if ((cond == true)) {
 
 
 Bad code 2
-var n = 2000;
+
+var n = 100;
 if (n == 100){
     console.log("This is a special number!");
-}
+} else{
 if (n<1000){
     if (n % 10 == 0){
-        if ( n != 100){
-            console.log("this number is almos special");
-        }
+        console.log("this number is almost special");
     }
 }
 
 else {
     console.log("This number just a regular number")
+}
 }
