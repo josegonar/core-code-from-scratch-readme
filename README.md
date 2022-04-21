@@ -60,3 +60,11 @@ else {
     console.log("This number just a regular number")
 }
 }
+
+
+Holiday VIII - Duty Free
+function dutyFree(normPrice, discount, hol){
+  var bottleTotal= Math.floor((hol/((discount / 100) * normPrice)));
+
+  return(bottleTotal);
+}
